@@ -15,6 +15,7 @@ Before running this program, users will need to register for an API key from:
 1. **OpenWeatherMap API:** https://openweathermap.org/api
 2. **Geoapify:** url: https://www.geoapify.com/
 
+ 
 Following this, executing the script provided in the **WeatherPy** Jupyter Lab Notebook will output the following information:
 1. Scatter plot of latitude vs. maximum temperature (C)
 2. Scatter plot of latitude vs. humidity (%)
@@ -29,6 +30,7 @@ Following this, executing the script provided in the **WeatherPy** Jupyter Lab N
 11. Regression plot of latitude vs. wind speed (m/s), Northern Hemisphere
 12. Regression plot of latitude vs. wind speed (m/s), Southern Hemisphere
 
+ 
 Executing the script provided in the **VacationPy** Jupyter Lab Notebook will output the following information:
 1. Map of every city
 2. A filtered dataframe of cities selected by user-defined preferences for maximum daily temperature (degrees Celsius), humidity (%), Cloudiness (%), and Wind Speed (m/s)
