@@ -12,8 +12,8 @@ This program consists of two, related projects:
 
 ## Installation and Run Instructions:
 1. Before running this program, users will need to register for an API key from:
-   (i) **OpenWeatherMap API:** https://openweathermap.org/api
-   (ii) **Geoapify:** url: https://www.geoapify.com/
+   (i). **OpenWeatherMap API:** https://openweathermap.org/api
+   (ii). **Geoapify:** url: https://www.geoapify.com/
 
 
 2. Next, you will need to supply your own **weather_api_key** and **geoapify_key** in the **config.py** files.
