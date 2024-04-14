@@ -11,31 +11,34 @@ This program consists of two, related projects:
 
 
 ## Installation and Run Instructions:
-Before running this program, users will need to register for an API key from:
-1. **OpenWeatherMap API:** https://openweathermap.org/api
-2. **Geoapify:** url: https://www.geoapify.com/
+1. Before running this program, users will need to register for an API key from:
+   (i) **OpenWeatherMap API:** https://openweathermap.org/api
+   (ii) **Geoapify:** url: https://www.geoapify.com/
+
+
+2. Next, you will need to supply your own **weather_api_key** and **geoapify_key** in the **config.py** files.
 
  
-Following this, executing the script provided in the **WeatherPy** Jupyter Lab Notebook will output the following information:
-1. Scatter plot of latitude vs. maximum temperature (C)
-2. Scatter plot of latitude vs. humidity (%)
-3. Scatter plot of latitude vs. cloudiness (%)
-4. Scatter plot of latitude vs. wind speed (m/s)
-5. Regression plot of latitude vs. temperature (C), Northern Hemisphere
-6. Regression plot of latitude vs. temperature (C), Southern Hemisphere
-7. Regression plot of latitude vs. humidity (%), Northern Hemisphere
-8. Regression plot of latitude vs. humidity (%), Southern Hemisphere
-9. Regression plot of latitude vs. cloudiness (%), Northern Hemisphere
-10. Regression plot of latitude vs. cloudiness (%), Southern Hemisphere
-11. Regression plot of latitude vs. wind speed (m/s), Northern Hemisphere
-12. Regression plot of latitude vs. wind speed (m/s), Southern Hemisphere
+3. Following this, executing the script provided in the **WeatherPy** Jupyter Lab Notebook will output the following information:
+   (i) Scatter plot of latitude vs. maximum temperature (C)
+   (ii) Scatter plot of latitude vs. humidity (%)
+   (iii) Scatter plot of latitude vs. cloudiness (%)
+   (iv) Scatter plot of latitude vs. wind speed (m/s)
+   (v) Regression plot of latitude vs. temperature (C), Northern Hemisphere
+   (vi) Regression plot of latitude vs. temperature (C), Southern Hemisphere
+   (vii) Regression plot of latitude vs. humidity (%), Northern Hemisphere
+   (viii) Regression plot of latitude vs. humidity (%), Southern Hemisphere
+   (ix) Regression plot of latitude vs. cloudiness (%), Northern Hemisphere
+   (x) Regression plot of latitude vs. cloudiness (%), Southern Hemisphere
+   (xi) Regression plot of latitude vs. wind speed (m/s), Northern Hemisphere
+   (xii) Regression plot of latitude vs. wind speed (m/s), Southern Hemisphere
 
  
-Executing the script provided in the **VacationPy** Jupyter Lab Notebook will output the following information:
-1. Map of every city
-2. A filtered dataframe of cities selected by user-defined preferences for maximum daily temperature (degrees Celsius), humidity (%), Cloudiness (%), and Wind Speed (m/s)
-3. A dataframe to hold information on the hotel name and address of the nearest hotel for these cities
-4. Map of every city in the filtered dataframe, along with hotel information (name, address) in accompanying hover messages
+4. Executing the script provided in the **VacationPy** Jupyter Lab Notebook will output the following information:
+   (i) Map of every city
+   (ii) A filtered dataframe of cities selected by user-defined preferences for maximum daily temperature (degrees Celsius), humidity (%), Cloudiness (%), and Wind Speed (m/s)
+   (iii) A dataframe to hold information on the hotel name and address of the nearest hotel for these cities
+   (iv) Map of every city in the filtered dataframe, along with hotel information (name, address) in accompanying hover messages
 
 
 ## Credits:
