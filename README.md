@@ -11,15 +11,14 @@ This program consists of two, related projects:
 
 
 ## Installation and Run Instructions:
-1. Before running this program, users will need to register for an API key from:
-   (i). **OpenWeatherMap API:** https://openweathermap.org/api
-   (ii). **Geoapify:** url: https://www.geoapify.com/
+Before running this program, users will need to register for an API key from:
+1. **OpenWeatherMap API:** https://openweathermap.org/api
+2. **Geoapify:** url: https://www.geoapify.com/
 
 
-2. Next, you will need to supply your own **weather_api_key** and **geoapify_key** in the **config.py** files.
+Next, you will need to supply your own **weather_api_key** and **geoapify_key** in the **config.py** files.
 
- 
-3. Following this, executing the script provided in the **WeatherPy** Jupyter Lab Notebook will output the following information:
+Following this, executing the script provided in the **WeatherPy** Jupyter Lab Notebook will output the following information:
    (i) Scatter plot of latitude vs. maximum temperature (C)
    (ii) Scatter plot of latitude vs. humidity (%)
    (iii) Scatter plot of latitude vs. cloudiness (%)
@@ -33,8 +32,7 @@ This program consists of two, related projects:
    (xi) Regression plot of latitude vs. wind speed (m/s), Northern Hemisphere
    (xii) Regression plot of latitude vs. wind speed (m/s), Southern Hemisphere
 
- 
-4. Executing the script provided in the **VacationPy** Jupyter Lab Notebook will output the following information:
+Executing the script provided in the **VacationPy** Jupyter Lab Notebook will output the following information:
    (i) Map of every city
    (ii) A filtered dataframe of cities selected by user-defined preferences for maximum daily temperature (degrees Celsius), humidity (%), Cloudiness (%), and Wind Speed (m/s)
    (iii) A dataframe to hold information on the hotel name and address of the nearest hotel for these cities
